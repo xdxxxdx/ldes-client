@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709412576214,
+  "lastUpdate": 1709412686217,
   "repoUrl": "https://github.com/xdxxxdx/ldes-client",
   "entries": {
     "Extraction algorithm Benchmark for inband data": [
@@ -188,6 +188,37 @@ window.BENCHMARK_DATA = {
             "range": "±13.16%",
             "unit": "ops/sec",
             "extra": "73 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "xueying_deng@outlook.com",
+            "name": "XD",
+            "username": "xdxxxdx"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f64886b0496000f8fc8d332026c035467172a20",
+          "message": "Update perf-test.yml",
+          "timestamp": "2024-03-02T21:50:56+01:00",
+          "tree_id": "e4855d780b8951d74a9d9ebc0b920f955429ceeb",
+          "url": "https://github.com/xdxxxdx/ldes-client/commit/0f64886b0496000f8fc8d332026c035467172a20"
+        },
+        "date": 1709412685140,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "descending tree, emits ordered",
+            "value": 577976,
+            "range": "±16.49%",
+            "unit": "ops/sec",
+            "extra": "66 samples"
           }
         ]
       }
