@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709412355261,
+  "lastUpdate": 1709412356758,
   "repoUrl": "https://github.com/xdxxxdx/ldes-client",
   "entries": {
     "Extraction algorithm Benchmark for inband data": [
@@ -95,6 +95,37 @@ window.BENCHMARK_DATA = {
             "range": "±12.53%",
             "unit": "ops/sec",
             "extra": "73 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "xueying_deng@outlook.com",
+            "name": "XD",
+            "username": "xdxxxdx"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7ee8c3e15e04e2108e60ff53a501e05df87c5ec",
+          "message": "Merge branch 'TREEcg:feat/perf' into feat/perf",
+          "timestamp": "2024-03-02T21:45:24+01:00",
+          "tree_id": "2c17b1aeb8d3a2005c242006cb68c0b048f75939",
+          "url": "https://github.com/xdxxxdx/ldes-client/commit/b7ee8c3e15e04e2108e60ff53a501e05df87c5ec"
+        },
+        "date": 1709412356193,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "descending tree, emits ordered",
+            "value": 591053,
+            "range": "±18.71%",
+            "unit": "ops/sec",
+            "extra": "66 samples"
           }
         ]
       }
